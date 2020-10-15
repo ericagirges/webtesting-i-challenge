@@ -1,10 +1,10 @@
 {
   "name": "webtesting-i-challenge",
   "version": "1.0.0",
-  "description": "## Instroduction",
+  "description": "## Introduction",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --watch --verbose"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ericagirges/webtesting-i-challenge/issues"
   },
-  "homepage": "https://github.com/ericagirges/webtesting-i-challenge#readme"
+  "homepage": "https://github.com/ericagirges/webtesting-i-challenge#readme",
+  "devDependencies": {
+    "jest": "^26.5.3"
+  }
 }
